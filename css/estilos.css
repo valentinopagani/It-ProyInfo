@@ -1,0 +1,528 @@
+* {
+margin: 0;
+padding: 0;
+font-family: "Montserrat", sans-serif;
+scroll-behavior: smooth;
+}
+
+body {
+background-color: #fff;
+}
+
+::selection {
+color: #333333;
+background-color: #fcff50;
+}
+
+.loader {
+position: fixed;
+z-index: 99;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.loader > img {
+width: 300px;
+}
+
+.loader.hidden {
+animation: fadeOut 0.3s;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+100% {
+	opacity: 0;
+	visibility: hidden;
+}
+}
+
+.thumb {
+height: 100px;
+border: 1px solid black;
+margin: 10px;
+}
+
+.amarillo {
+color: yellow;
+font-size: 55px !important;
+}
+
+.btn-wsp {
+position: fixed;
+width: 47px;
+height: 45px;
+bottom: 3vh;
+right: 30px;
+padding: 0.8vh;
+background: #25d366;
+color: #fff;
+border-radius: 50px;
+text-align: center;
+font-size: 6.3vh;
+box-shadow: 10px 10px 35px #000000;
+z-index: 100;
+transition: all 0.6s ease;
+animation: wsp ease-in 1s infinite alternate;
+}
+
+.btn-wsp:hover {
+color: #25d366;
+background-color: #fff;
+}
+
+@keyframes wsp {
+0% {
+	transform: translateY(-10px) rotate(10deg);
+}
+100% {
+	transform: translateY(0px) rotate(0deg);
+}
+}
+
+/* BANNER */
+.banner {
+width: 100%;
+height: 100vh;
+margin-bottom: 50px;
+background-size: cover;
+background-position: center;
+background-image: url(../img/empresa.jpg);
+}
+
+.banner-content {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100vh;
+color: #fff;
+display: inline-block;
+text-align: center;
+background-image: linear-gradient(to top, #00ffffd7 0%, #4900a1d3 100%);
+}
+
+#particles-js {
+height: 100vh;
+width: 100%;
+position: absolute;
+}
+
+.logoBanner {
+width: 3vw;
+margin-top: 20vh;
+margin-bottom: 50px;
+}
+
+.banner-content h2 {
+font-size: 4vh;
+transition: all 0.3s;
+}
+
+.titleh2 {
+font-size: 8vh;
+color: #00ffff;
+}
+
+.text-typed {
+color: #fef11d;
+font-weight: 900px;
+}
+
+.text-typed2 {
+color: #00ff77;
+font-weight: 900px;
+}
+
+.text-typed3 {
+color: #c3d5d9;
+font-weight: 900px;
+}
+
+.text-typed4 {
+color: #ff484b;
+font-weight: 900px;
+}
+
+.text-typed5 {
+color: #ffb700;
+font-weight: 900px;
+}
+
+.text-typed6 {
+color: #0e3d64;
+font-weight: 900px;
+}
+
+.banner-content p {
+margin-top: 100px;
+}
+
+.icon-circle-down {
+font-size: 5vh;
+color: #fff;
+bottom: 10% !important;
+position: absolute;
+z-index: 99;
+animation: btDown ease-in 1s infinite alternate;
+}
+
+@keyframes btDown {
+0% {
+	transform: translateY(-5px);
+}
+100% {
+	transform: translateY(5px);
+}
+}
+
+.wave {
+position: absolute;
+bottom: 0;
+width: 100%;
+fill: #fff;
+}
+
+.claves {
+text-align: center;
+margin: 0 100px;
+margin-bottom: 15vh;
+background: none;
+}
+
+.claves h2 {
+font-size: 5.5vh;
+padding-top: 65px;
+padding-bottom: 10px;
+color: #0091d4;
+overflow: hidden;
+animation: clavesTitulo ease-in 1s infinite alternate;
+}
+
+@keyframes clavesTitulo {
+0% {
+	transform: scale(1);
+}
+100% {
+	transform: scale(1.03);
+}
+}
+
+.claves p {
+font-size: 3vh;
+margin-bottom: 60px;
+}
+
+.container {
+width: 100%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+margin-top: 50px;
+transition: all 0.5s;
+}
+
+.container .card {
+width: 45vh;
+height: 48vh;
+border: 1px solid #00000052;
+border-radius: 10px;
+overflow: hidden;
+margin: 0 10px;
+color: #000;
+text-align: center;
+transition: all 0.5s;
+background-color: #fff;
+box-shadow: 0 10px 20px #00000059;
+}
+
+.titleCard {
+margin-top: 20px;
+font-size: 4.5vh;
+color: #ae00ff;
+}
+
+.container .card img {
+width: 4vh;
+padding: 5px;
+margin: 5px;
+border-radius: 50%;
+transition: all 1s;
+background-color: #eeff007a;
+}
+
+.container .card:hover img {
+transform: rotate(360deg);
+background-color: #00ffbf;
+}
+
+.container .card p {
+font-size: 2.6vh;
+padding: 0 10px;
+display: inline-block;
+}
+
+#productosDestacados {
+background-color: #333333;
+padding: 100px 0 0 0;
+overflow: hidden;
+}
+
+#productosDestacados h2 {
+text-align: center;
+color: #fff;
+font-size: 6vh;
+margin-bottom: 10px;
+}
+
+#productosDestacados p {
+text-align: center;
+color: #c2c2c2;
+font-size: 2.5vh;
+margin-bottom: 30px;
+}
+
+#producto1 {
+background: #d2a500;
+display: inline-block;
+width: 50%;
+height: 43vh;
+}
+
+#producto1 h2 {
+color: #fff;
+padding: 2.5vh 0 0 0;
+font-size: 5vh;
+}
+
+#producto1 p {
+font-size: 2.7vh;
+color: #fff;
+padding: 0 1.5vw;
+text-align: center;
+}
+
+#producto1Img {
+display: inline-block;
+width: 49.9%;
+height: 93vh;
+float: right;
+}
+
+#producto2 {
+background: #005eff;
+display: inline-block;
+width: 50%;
+height: 50vh;
+float: left;
+}
+
+#producto2 h2 {
+color: #fff;
+padding: 2.5vh 0 0 0;
+font-size: 5vh;
+}
+
+#producto2 p {
+font-size: 2.7vh;
+color: #fff;
+padding: 0 1.5vw;
+text-align: left;
+}
+
+#producto3 {
+background: purple;
+display: inline-block;
+width: 50%;
+height: 30vh;
+}
+
+#producto3 h2 {
+color: #fff;
+padding: 2.5vh 0 0 0;
+font-size: 5vh;
+}
+
+#producto3 p {
+font-size: 2.7vh;
+color: #fff;
+padding: 0 1.5vw;
+text-align: left;
+}
+
+#producto3Img {
+display: inline-block;
+width: 49.9%;
+height: 30vh;
+float: right;
+}
+
+.swiper-container {
+width: 95%;
+height: 100%;
+margin-top: 5vh;
+margin-bottom: 5vh;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide {
+background-position: center;
+background-size: cover;
+width: 60vh;
+height: 40vh;
+}
+
+.swiper-button-white {
+background-color: #00000059;
+padding: 25px 10px;
+border-radius: 5px;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+.swiper-button-white:hover {
+background-color: #000000af;
+}
+
+.clientes {
+margin-bottom: 50px;
+padding: 50px 0;
+text-align: center;
+width: 41%;
+display: inline-block;
+}
+
+.clientes h2 {
+padding-top: 50px;
+margin-bottom: 50px;
+font-size: 4.5vh;
+color: #ae00ff;
+overflow: hidden;
+animation: clavesTitulo ease-in 1s infinite alternate;
+}
+
+.macro {
+padding: 3.2vh 0;
+width: 18vw;
+}
+
+.cañuelas {
+padding: 3.2vh 0;
+width: 18vw;
+}
+
+.tejas {
+padding: 3.2vh 0;
+width: 10vw;
+}
+
+.eleginos {
+text-align: center;
+width: 54%;
+display: inline-block;
+}
+
+.eleginos h2 {
+font-size: 4vh;
+color: #ae00ff;
+overflow: hidden;
+animation: clavesTitulo ease-in 0.8s infinite alternate;
+}
+
+.accordion {
+width: 75%;
+margin: 1rem auto;
+}
+
+.accordion-item {
+background-color: #fff;
+color: #111;
+font-size: 2.8vh;
+margin: 1rem 0;
+border-radius: 0.5rem;
+box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.37);
+}
+
+.accordion-item-header {
+padding: 0.5rem 3rem 0.5rem 1rem;
+min-height: 2.7rem;
+line-height: 1.25rem;
+font-weight: bold;
+display: flex;
+align-items: center;
+position: relative;
+cursor: pointer;
+color: #00a8f7;
+}
+
+.accordion-item-header::after {
+content: "\002B";
+font-size: 2rem;
+position: absolute;
+right: 1rem;
+}
+
+.accordion-item-header.active::after {
+content: "\2212";
+}
+
+.accordion-item-body {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.5s ease-out;
+}
+
+.accordion-item-body-content {
+padding: 1rem;
+font-size: 2.7vh;
+line-height: 1.5rem;
+border-top: 1px solid;
+border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
+footer {
+background-color: #333333;
+color: #fff;
+padding: 50px;
+text-align: center;
+}
+
+.logoFooter {
+width: 20vw;
+margin-bottom: 20px;
+}
+
+.footer-content1 {
+display: inline-block;
+width: 45%;
+text-align: left;
+}
+
+.footer-content1 p {
+padding: 7px;
+font-size: 2.5vh;
+}
+
+.footer-content1 span {
+padding: 7px;
+}
+
+.footer-content2 {
+display: inline-block;
+text-align: left;
+}
+
+.footer-content2 p {
+padding: 7px;
+font-size: 2.5vh;
+}
+
+.footer-content2 span {
+padding: 7px;
+}

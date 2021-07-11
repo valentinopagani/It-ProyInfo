@@ -1,0 +1,391 @@
+@media screen and (max-width: 1300px){
+    .wave{
+        display: none;
+    }
+
+    /* BANNER */
+    .banner{
+        margin-left: 0; 
+        margin-right: 0;
+        height: 100vh;
+    }
+
+    .logoBanner{
+        width: 6vw;
+    }
+
+    #particles-js{
+        display: none;
+    }
+
+    .titleh2{
+        font-size: 10vw;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    /* .claves{
+        text-align: center;
+        align-items: center;
+        overflow: hidden;
+    } */
+
+    .claves h2{
+        font-size: 5vw;
+        animation: none;
+        padding: 2vh 0;
+    }
+
+    .claves p{
+        font-size: 3vw;
+        padding: 5px 20px;
+        margin-bottom: 5vh;
+    }
+
+    .container{
+        width: 95%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .container .card{
+        width: 100;
+        height: 100%;
+        border: 0.5px solid #bebebe;
+        border-radius: 10px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.356);
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+        background-color: #fff;
+    }
+
+
+    #productosDestacados{
+        background-color: #333333;
+        padding-top: 20px !important;
+    }
+
+    #productosDestacados h2{
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+        padding-top: 60px !important;
+        margin-bottom: 10px;
+    }
+
+    #productosDestacados p{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .amarillo{
+        font-size: 35px !important;
+    }
+
+    #producto1{
+        background-color: #00ff95;
+        display: block;
+        width: 99%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    #producto1 h2{
+        font-size: 22px;
+        padding: 5px 0 !important;
+    }
+
+    #producto1 p{
+        font-size: 20px;
+        padding: 5px !important;
+    }
+
+    #producto1Img{
+        display: none;
+    }
+
+    #producto2{
+        display: block;
+        width: 99%;
+        height: 100%;
+        padding: 10px;
+        float: none;
+        text-align: left;
+    }
+
+    #producto2 h2{
+        font-size: 20px;
+        padding: 5px !important;
+    }
+
+    #producto2 p{
+        font-size: 20px;
+        padding: 5px !important;
+        text-align: justify;
+    }
+
+    #producto2Img{
+        display: none;
+    }
+
+    #producto3{
+        display: block;
+        width: 99%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    #producto3 h2{
+        font-size: 20px;
+        padding: 5px !important;
+    }
+
+    #producto3 p{
+        font-size: 20px;
+        padding: 5px !important;
+    }
+
+    #producto3Img{
+        display: none;
+    }
+
+    .clientes{
+        margin-bottom: 50px;
+        padding: 50px 0;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    .clientes h2{
+        margin-bottom: 50px;
+        font-size: 30px;
+        color: #ae00ff;
+        animation: none;
+    }
+
+    .macro{
+        width: 250px;
+    }
+
+    .cañuelas{
+        width: 220px;
+    }
+
+    .tejas{
+        width: 160px;
+        height: 130px;
+    }
+
+    .eleginos{
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    .eleginos h2{
+        font-size: 30px;
+        color: #ae00ff;
+        animation: none;
+    }
+
+    .accordion {
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    .accordion-item {
+        background-color: #fff;
+        color: #111;
+        font-size: 20px;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.37);
+    }
+
+    .accordion-item-header {
+        padding: 0.5rem 3rem 0.5rem 1rem;
+        min-height: 3.5rem;
+        line-height: 1.25rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+        color: #00a8f7;
+    }
+
+    .accordion-item-header::after {
+        content: "\002B";
+        font-size: 2rem;
+        position: absolute;
+        right: 1rem;
+    }
+
+    .accordion-item-header.active::after {
+        content: "\2212";
+    }
+
+    .accordion-item-body {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+    }
+
+    .accordion-item-body-content {
+        padding: 1rem;
+        font-size: 17px;
+        line-height: 1.5rem;
+        border-top: 1px solid;
+        border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    }
+
+
+    footer{
+        background-color: #333333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logoFooter{
+        width: 250px;
+        padding: 20px 0;
+    }
+
+    .footer-content1{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .footer-content1 p{
+        font-size: 18px;
+    }
+
+    .footer-content2{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .footer-content2 p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .logoBanner{
+        margin-bottom: 100px !important;
+    }
+
+    .claves{
+        margin: 10px 5px;
+    }
+
+    .titleCard {
+        font-size: 3vh;
+        }
+        
+    .container .card img {
+        width: 2.2vh;
+    }
+    
+    .container .card p {
+        font-size: 2vh;
+    }
+
+    #producto1{
+        background-color: #00ff95;
+        display: block;
+        width: 99%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    #producto1 h2{
+        font-size: 25px;
+        padding: 5px 0 !important;
+    }
+
+    #producto1 p{
+        font-size: 15px;
+        padding: 5px !important;
+    }
+
+    #producto1Img{
+        display: none;
+    }
+
+    #producto2{
+        display: block;
+        width: 99%;
+        height: 100%;
+        padding: 10px;
+        float: none;
+        text-align: left;
+    }
+
+    #producto2 h2{
+        font-size: 25px;
+        padding: 5px !important;
+    }
+
+    #producto2 p{
+        font-size: 15px;
+        padding: 5px !important;
+        text-align: justify;
+    }
+
+    #producto2Img{
+        display: none;
+    }
+
+    #producto3{
+        display: block;
+        width: 99%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    #producto3 h2{
+        font-size: 25px;
+        padding: 5px !important;
+    }
+
+    #producto3 p{
+        font-size: 15px;
+        padding: 5px !important;
+    }
+
+    #producto3Img{
+        display: none;
+    }
+
+    .macro {
+        width: 50vw;
+    }
+
+    .cañuelas {
+        width: 50vw;
+    }
+
+    .tejas {
+        width: 35vw;
+    }
+}
+
+
+@media screen and (max-height: 460px){
+    .banner, .banner-content{
+        height: 130vh;
+    }
+
+    .logoBanner{
+        margin-bottom: 10px !important;
+    }
+}
