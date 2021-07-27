@@ -64,7 +64,6 @@ margin: 0;
 
 header nav ul li a:hover {
 color: yellow;
-transform: translateY(-0.3vh);
 }
 
 .modes {

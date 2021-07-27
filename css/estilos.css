@@ -376,6 +376,11 @@ background-position: center;
 background-size: cover;
 width: 60vh;
 height: 40vh;
+transition: all .2s !important;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide:hover {
+transform: scale(1.02) !important;
 }
 
 .swiper-button-white {
